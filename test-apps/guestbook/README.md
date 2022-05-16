@@ -13,4 +13,8 @@ argocd app create guestbook \
   
 argocd app sync guestbook
 
+## Testing
+
+you can swap deployment image version between 0.1 and 0.2 to test ArgoCD
+
 ```
