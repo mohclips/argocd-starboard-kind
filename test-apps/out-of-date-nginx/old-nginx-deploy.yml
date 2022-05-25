@@ -18,7 +18,8 @@ spec:
         app: old-nginx
     spec:
       containers:
-      - image: nginx:1.8
+      # 1.19.9 is a year old in May'22
+      - image: nginx:1.19.9
         name: old-nginx-container
         resources: {}
 status: {}
